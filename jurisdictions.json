@@ -199,7 +199,8 @@
         "name": "Yukon"
       }
     }, 
-    "name": "Canada (states)"
+    "name": "Canada (states)",
+    "nickname": "Can"
   }, 
   "cc": {
     "name": "Cocos (Keeling) Islands"
@@ -243,7 +244,8 @@
         "name": "Commission on Human Rights"
       }
     }, 
-    "name": "Council of Europe (states)"
+    "name": "Council of Europe (states)",
+    "nickname": "COE"
   }, 
   "cr": {
     "name": "Costa Rica"
@@ -350,7 +352,8 @@
         "name": "Scotland"
       }
     }, 
-    "name": "United Kingdom (states)"
+    "name": "United Kingdom (states)",
+    "nickname": "UK"
   }, 
   "gd": {
     "name": "Grenada"
@@ -643,7 +646,8 @@
         "name": "Maori Jurisdiction"
       }
     }, 
-    "name": "New Zealand (states)"
+    "name": "New Zealand (states)",
+    "nickname": "NZ"
   }, 
   "om": {
     "name": "Oman"
@@ -1268,7 +1272,8 @@
         "name": "Wyoming"
       }
     }, 
-    "name": "United States (states)"
+    "name": "United States (states)",
+    "nickname": "US"
   }, 
   "uy": {
     "name": "Uruguay"
