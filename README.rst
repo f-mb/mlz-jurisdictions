@@ -20,30 +20,29 @@ projects. [#]_
 
 __ http://www.iso.org/iso/country_codes.htm
 
-Each key maps to a child object containing one mandatory and one
-optional key. The mandatory ``name`` key provides a name for the
-jurisdiction specified, suitable for use in generating menus and the
-like. The optional ``children`` key maps to an object with URN:LEX
-keys. The hierarchy does not currently recurse further: keys under a
-``children`` key map to objects carrying only a ``name`` value.
+Each key maps to a child object containing one mandatory key ``name``
+to a string value, and optional keys ``federal`` and ``subunit``. When
+either or both of these optional keys are present, they must be
+accompanied by a sibling ``nickname`` key to a string value.
 
-At recursion boundaries, one of two arbitrary extensions is applied to
-the top-level key, to provide an anchor for nesting distinct from the
-country or institution name proper: ``subunit`` or ``federal``. The
-``subunit`` extension is used to anchor subjurisdictions that have
-authority independent of their container.  Thus, ``us;ca`` (the state
-of California) is located beneath a top-level anchor ``us;subunit``.
+The ``federal`` and ``subunit`` keys each map to an object with
+keys ``children`` and ``name``. The ``name`` key is a string
+label describing the children (typically an empty string or
+"federal"). A ``children`` key maps to an object containing
+jurisdiction keys, each mapping in turn to an object with a ``name``
+key to a string value, as at the top level of the overall object.
 
-The ``federal`` extension is used to anchor subsidiary hierarchies
-that are dependent on their parent. Thus, ``us;federal;de`` (the
-Federal District of Delaware) is located under the ``us;federal``
-anchor.
+Jurisdiction keys must be unique across the entire object. Child
+descriptions can be generated from the ``name`` and ``nickname`` values
+with addressing something like this::
 
-The ``subunit`` and ``federal`` anchors have no meaning within the
-URN:LEX scheme and should not be used for tagging content. The
-URN:LEX keys and top level and below should be treated as a single
-namespace, with no conflicts when the hierarchy is flattened to
-a list of keys.
+   parent = obj[key]["nickname"]
+   name = obj[key]["federal"]["children"][subkey]["name"]
+   type = obj[key]["federal"]["name"]
+   "%s, %s (%s)" % (name,parent,type)
+
+(Deployed code obviously needs to recurse across the object, so the
+actual code will look rather different.)
 
 Others are welcome to use this schema in other projects. I would only
 ask that, unless you abandon the scheme of organization entirely, you
