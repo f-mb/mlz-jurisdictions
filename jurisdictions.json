@@ -29,6 +29,9 @@
     "ar": {
         "name": "Argentina"
     }, 
+    "arbitration": {
+        "name": "Arbitration"
+    },
     "as": {
         "name": "American Samoa"
     }, 
@@ -37,6 +40,9 @@
     }, 
     "au": {
         "name": "Australia"
+    }, 
+    "au.int": {
+        "name": "African Union"
     }, 
     "aw": {
         "name": "Aruba"
@@ -424,6 +430,9 @@
     "hu": {
         "name": "Hungary"
     }, 
+    "icc-cpi.int": {
+       "name": "International Criminal Court"
+    },
     "id": {
         "name": "Indonesia"
     }, 
@@ -567,6 +576,77 @@
     }, 
     "mn": {
         "name": "Mongolia"
+        "nickname": "MN",
+        "subunit": {
+            "children": {
+                "mn;arkhangai": {
+                    "name": "Arkhangai"
+                },
+                "mn;bayan-ulgii": {
+                    "name": "Bayan-Ulgii"
+                },
+                "mn;bayankhongor": {
+                	"name": "Bayankhongor"
+                },
+                "mn;bulgan": {
+                	"name": "Blugan"
+                },
+                "mn;govi-altai": {
+                	"name": "Govi-Altai"
+                },
+                "mn;govisumber": {
+                	"name": "Govisumber"
+                },
+                "mn;darkhan-uul": {
+                	"name": "Darkhan-Uul"
+                },
+                "mn;dornogovi": {
+                	"name": "Dornogovi"
+                },
+                "mn;dornod": {
+                	"name": "Dornod"
+                },
+                "mn;dundgovi": {
+                	"name": "Dundgovi"
+                },
+                "mn;zavkhan": {
+                	"name": "Zavkhan"
+                },
+                "mn;orkhon": {
+                	"name": "Orkhon"
+                },
+                "mn;selenge": {
+                	"name": "Selenge"
+                },
+                "mn;sukhbaatar": {
+                	"name": "Sukhbaatar"
+                },
+                "mn;tuv": {
+                	"name": "Tuv"
+                },
+                "mn;uvs": {
+                	"name": "Uvs"
+                },
+                "mn;ulaanbaatar": {
+                	"name": "Ulaanbaatar"
+                },
+                "mn;khovd": {
+                	"name": "Khovd"
+                },
+                "mn;khentii": {
+                	"name": "Khetii"
+                },
+                "mn;khuvsgul": {
+                	"name": "Khuvsgul"
+                },
+                "mn;uvurkhangai": {
+                	"name": "Uvurkhangai"
+                },
+                "mn;umnugovi": {
+                	"name": "Umnugovi"
+                }
+            }
+        }
     }, 
     "mo": {
         "name": "Macao"
@@ -830,7 +910,19 @@
         "name": "United States Minor Outlying Islands"
     }, 
     "un.org": {
-        "name": "United Nations"
+        "name": "United Nations",
+        "nickname": "UN",
+        "subunit": {
+           "children": {
+              "un;icj": {
+                  "name": "International Court of Justice (X AVOID)"
+              },
+              "un.org;icj": {
+                  "name": "International Court of Justice"
+              }
+           },
+           "name": ""
+        }
     }, 
     "us": {
         "name": "United States",
