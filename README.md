@@ -34,10 +34,12 @@ Jurisdiction keys must be unique across the entire object. Child
 descriptions can be generated from the `name` and `nickname` values
 with addressing something like this:
 
+```python
    parent = obj[key]["nickname"]
    name = obj[key]["federal"]["children"][subkey]["name"]
    type = obj[key]["federal"]["name"]
    "%s, %s (%s)" % (name,parent,type)
+```
 
 (Deployed code obviously needs to recurse across the object, so the
 actual code will look rather different.)
