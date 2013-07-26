@@ -55,8 +55,33 @@ Enjoy!
 
 Frank Bennett, Nagoya
 
-
 .. [#] I'm not particularly happy with this situation, so if you know
        of a central repository of these things that offers standard
        codes for international organizations, by all means put a note
        and pointer in the project tracker.
+
+=====
+
+.. raw:: html
+
+    <p xmlns:dct="http://purl.org/dc/terms/" xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+      <a rel="license"
+         href="http://creativecommons.org/publicdomain/zero/1.0/">
+        <img src="http://i.creativecommons.org/p/zero/1.0/88x31.png" style="border-style: none;" alt="CC0" />
+      </a>
+      <br />
+      To the extent possible under law,
+      <a rel="dct:publisher"
+         href="https://github.com/fbennett/mlz-jurisdictions">
+        <span property="dct:title">Frank Bennett</span></a>
+      has waived all copyright and related or neighboring rights to
+      <span property="dct:title">MLZ Jurisdictions List</span>.
+    This work is published from:
+    <span property="vcard:Country" datatype="dct:ISO3166"
+          content="JP" about="https://github.com/fbennett/mlz-jurisdictions">
+      Japan</span>.
+    </p>
+
+
+
+
