@@ -274,6 +274,9 @@
     "cz": {
         "name": "Czech Republic"
     }, 
+    "czechoslovakia": {
+        "name": "Czechoslovakia"
+    }, 
     "de": {
         "name": "Germany"
     }, 
@@ -360,6 +363,9 @@
             }, 
             "name": ""
         }
+    }, 
+    "gdr": {
+        "name": "German Democratic Republic"
     }, 
     "gd": {
         "name": "Grenada"
@@ -930,311 +936,620 @@
         "nickname": "US",
         "federal": {
             "children": {
+                "us;federal;supreme.court": {
+                    "name": "Supreme Court"
+                }, 
                 "us;federal;1-cir": {
                     "name": "1st Circuit Court of Appeals"
+                }, 
+                "us;federal;1-cir-bankr": {
+                    "name": "(Bankr) 1st Circuit Court of Appeals"
                 }, 
                 "us;federal;2-cir": {
                     "name": "2nd Circuit Court of Appeals"
                 }, 
+                "us;federal;2-cir-bankr": {
+                    "name": "(Bankr) 2nd Circuit Court of Appeals"
+                }, 
                 "us;federal;3-cir": {
                     "name": "3rd Circuit Court of Appeals"
+                }, 
+                "us;federal;3-cir-bankr": {
+                    "name": "(Bankr) 3rd Circuit Court of Appeals"
                 }, 
                 "us;federal;4-cir": {
                     "name": "4th Circuit Court of Appeals"
                 }, 
+                "us;federal;4-cir-bankr": {
+                    "name": "(Bankr) 4th Circuit Court of Appeals"
+                }, 
                 "us;federal;5-cir": {
                     "name": "5th Circuit Court of Appeals"
+                }, 
+                "us;federal;5-cir-bankr": {
+                    "name": "(Bankr) 5th Circuit Court of Appeals"
                 }, 
                 "us;federal;6-cir": {
                     "name": "6th Circuit Court of Appeals"
                 }, 
+                "us;federal;6-cir-bankr": {
+                    "name": "(Bankr) 6th Circuit Court of Appeals"
+                }, 
                 "us;federal;7-cir": {
                     "name": "7th Circuit Court of Appeals"
+                }, 
+                "us;federal;7-cir-bankr": {
+                    "name": "(Bankr) 7th Circuit Court of Appeals"
                 }, 
                 "us;federal;8-cir": {
                     "name": "8th Circuit Court of Appeals"
                 }, 
+                "us;federal;8-cir-bankr": {
+                    "name": "(Bankr) 8th Circuit Court of Appeals"
+                }, 
                 "us;federal;9-cir": {
                     "name": "9th Circuit Court of Appeals"
+                }, 
+                "us;federal;9-cir-bankr": {
+                    "name": "(Bankr) 9th Circuit Court of Appeals"
                 }, 
                 "us;federal;10-cir": {
                     "name": "10th Circuit Court of Appeals"
                 }, 
+                "us;federal;10-cir-bankr": {
+                    "name": "(Bankr) 10th Circuit Court of Appeals"
+                }, 
                 "us;federal;11-cir": {
                     "name": "11th Circuit Court of Appeals"
+                }, 
+                "us;federal;11-cir-bankr": {
+                    "name": "(Bankr) 11th Circuit Court of Appeals"
                 }, 
                 "us;federal;ak": {
                     "name": "D. Alaska"
                 }, 
+                "us;federal;ak-bankr": {
+                    "name": "(Bankr) D. Alaska"
+                }, 
                 "us;federal;al.middle": {
                     "name": "M.D. Alabama"
+                }, 
+                "us;federal;al.middle-bankr": {
+                    "name": "(Bankr) M.D. Alabama"
                 }, 
                 "us;federal;al.northern": {
                     "name": "N.D. Alabama"
                 }, 
+                "us;federal;al.northern-bankr": {
+                    "name": "(Bankr) N.D. Alabama"
+                }, 
                 "us;federal;al.southern": {
                     "name": "S.D. Alabama"
+                }, 
+                "us;federal;al.southern-bankr": {
+                    "name": "(Bankr) S.D. Alabama"
                 }, 
                 "us;federal;ar.eastern": {
                     "name": "E.D. Arkansas"
                 }, 
+                "us;federal;ar.eastern-bankr": {
+                    "name": "(Bankr) E.D. Arkansas"
+                }, 
                 "us;federal;ar.western": {
                     "name": "W.D. Arkansas"
+                }, 
+                "us;federal;ar.western-bankr": {
+                    "name": "(Bankr) W.D. Arkansas"
                 }, 
                 "us;federal;az": {
                     "name": "D. Arizona"
                 }, 
+                "us;federal;az-bankr": {
+                    "name": "(Bankr) D. Arizona"
+                }, 
                 "us;federal;ca.central": {
                     "name": "C.D. California"
+                }, 
+                "us;federal;ca.central-bankr": {
+                    "name": "(Bankr) C.D. California"
                 }, 
                 "us;federal;ca.eastern": {
                     "name": "E.D. California"
                 }, 
+                "us;federal;ca.eastern-bankr": {
+                    "name": "(Bankr) E.D. California"
+                }, 
                 "us;federal;ca.northern": {
                     "name": "N.D. California"
+                }, 
+                "us;federal;ca.northern-bankr": {
+                    "name": "(Bankr) N.D. California"
                 }, 
                 "us;federal;ca.southern": {
                     "name": "S.D. California"
                 }, 
+                "us;federal;ca.southern-bankr": {
+                    "name": "(Bankr) S.D. California"
+                }, 
                 "us;federal;co": {
                     "name": "D. Colorado"
+                }, 
+                "us;federal;co-bankr": {
+                    "name": "(Bankr) D. Colorado"
                 }, 
                 "us;federal;ct": {
                     "name": "D. Connecticut"
                 }, 
+                "us;federal;ct-bankr": {
+                    "name": "(Bankr) D. Connecticut"
+                }, 
                 "us;federal;dc": {
                     "name": "D. District of Columbia"
+                }, 
+                "us;federal;dc-bankr": {
+                    "name": "(Bankr) D. District of Columbia"
                 }, 
                 "us;federal;de": {
                     "name": "D. Delaware"
                 }, 
+                "us;federal;de-bankr": {
+                    "name": "(Bankr) D. Delaware"
+                }, 
                 "us;federal;fl.middle": {
                     "name": "M.D. Florida"
+                }, 
+                "us;federal;fl.middle-bankr": {
+                    "name": "(Bankr) M.D. Florida"
                 }, 
                 "us;federal;fl.northern": {
                     "name": "N.D. Florida"
                 }, 
+                "us;federal;fl.northern-bankr": {
+                    "name": "(Bankr) N.D. Florida"
+                }, 
                 "us;federal;fl.southern": {
                     "name": "S.D. Florida"
+                }, 
+                "us;federal;fl.southern-bankr": {
+                    "name": "(Bankr) S.D. Florida"
                 }, 
                 "us;federal;ga.middle": {
                     "name": "M.D. Georgia"
                 }, 
+                "us;federal;ga.middle-bankr": {
+                    "name": "(Bankr) M.D. Georgia"
+                }, 
                 "us;federal;ga.northern": {
                     "name": "N.D. Georgia"
+                }, 
+                "us;federal;ga.northern-bankr": {
+                    "name": "(Bankr) N.D. Georgia"
                 }, 
                 "us;federal;ga.southern": {
                     "name": "S.D. Georgia"
                 }, 
+                "us;federal;ga.southern-bankr": {
+                    "name": "(Bankr) S.D. Georgia"
+                }, 
                 "us;federal;hi": {
                     "name": "D. Hawaii"
+                }, 
+                "us;federal;hi-bankr": {
+                    "name": "(Bankr) D. Hawaii"
                 }, 
                 "us;federal;ia.northern": {
                     "name": "N.D. Iowa"
                 }, 
+                "us;federal;ia.northern-bankr": {
+                    "name": "(Bankr) N.D. Iowa"
+                }, 
                 "us;federal;ia.southern": {
                     "name": "S.D. Iowa"
+                }, 
+                "us;federal;ia.southern-bankr": {
+                    "name": "(Bankr) S.D. Iowa"
                 }, 
                 "us;federal;id": {
                     "name": "D. Idaho"
                 }, 
+                "us;federal;id-bankr": {
+                    "name": "(Bankr) D. Idaho"
+                }, 
                 "us;federal;il.central": {
                     "name": "C.D. Illinois"
+                }, 
+                "us;federal;il.central-bankr": {
+                    "name": "(Bankr) C.D. Illinois"
                 }, 
                 "us;federal;il.northern": {
                     "name": "N.D. Illinois"
                 }, 
+                "us;federal;il.northern-bankr": {
+                    "name": "(Bankr) N.D. Illinois"
+                }, 
                 "us;federal;il.southern": {
                     "name": "S.D. Illinois"
+                }, 
+                "us;federal;il.southern-bankr": {
+                    "name": "(Bankr) S.D. Illinois"
                 }, 
                 "us;federal;in.northern": {
                     "name": "N.D. Indiana"
                 }, 
+                "us;federal;in.northern-bankr": {
+                    "name": "(Bankr) N.D. Indiana"
+                }, 
                 "us;federal;in.southern": {
                     "name": "S.D. Indiana"
+                }, 
+                "us;federal;in.southern-bankr": {
+                    "name": "(Bankr) S.D. Indiana"
                 }, 
                 "us;federal;ks": {
                     "name": "D. Kansas"
                 }, 
+                "us;federal;ks-bankr": {
+                    "name": "(Bankr) D. Kansas"
+                }, 
                 "us;federal;ky.eastern": {
                     "name": "E.D. Kentucy"
+                }, 
+                "us;federal;ky.eastern-bankr": {
+                    "name": "(Bankr) E.D. Kentucy"
                 }, 
                 "us;federal;ky.western": {
                     "name": "W.D. Kentucky"
                 }, 
+                "us;federal;ky.western-bankr": {
+                    "name": "(Bankr) W.D. Kentucky"
+                }, 
                 "us;federal;la.eastern": {
                     "name": "E.D. Louisiana"
+                }, 
+                "us;federal;la.eastern-bankr": {
+                    "name": "(Bankr) E.D. Louisiana"
                 }, 
                 "us;federal;la.middle": {
                     "name": "M.D. Louisiana"
                 }, 
+                "us;federal;la.middle-bankr": {
+                    "name": "(Bankr) M.D. Louisiana"
+                }, 
                 "us;federal;la.western": {
                     "name": "W.D. Louisiana"
+                }, 
+                "us;federal;la.western-bankr": {
+                    "name": "(Bankr) W.D. Louisiana"
                 }, 
                 "us;federal;ma": {
                     "name": "D. Massachusetts"
                 }, 
+                "us;federal;ma-bankr": {
+                    "name": "(Bankr) D. Massachusetts"
+                }, 
                 "us;federal;md": {
                     "name": "D. Maryland"
+                }, 
+                "us;federal;md-bankr": {
+                    "name": "(Bankr) D. Maryland"
                 }, 
                 "us;federal;me": {
                     "name": "D. Maine"
                 }, 
+                "us;federal;me-bankr": {
+                    "name": "(Bankr) D. Maine"
+                }, 
                 "us;federal;mi.eastern": {
                     "name": "E.D. Michigan"
+                }, 
+                "us;federal;mi.eastern-bankr": {
+                    "name": "(Bankr) E.D. Michigan"
                 }, 
                 "us;federal;mi.western": {
                     "name": "W.D. Michigan"
                 }, 
+                "us;federal;mi.western-bankr": {
+                    "name": "(Bankr) W.D. Michigan"
+                }, 
                 "us;federal;mn": {
                     "name": "D. Minnisota"
+                }, 
+                "us;federal;mn-bankr": {
+                    "name": "(Bankr) D. Minnisota"
                 }, 
                 "us;federal;mo.eastern": {
                     "name": "E.D. Missouri"
                 }, 
+                "us;federal;mo.eastern-bankr": {
+                    "name": "(Bankr) E.D. Missouri"
+                }, 
                 "us;federal;mo.western": {
                     "name": "W.D. Missouri"
+                }, 
+                "us;federal;mo.western-bankr": {
+                    "name": "(Bankr) W.D. Missouri"
                 }, 
                 "us;federal;ms.northern": {
                     "name": "N.D. Mississippi"
                 }, 
+                "us;federal;ms.northern-bankr": {
+                    "name": "(Bankr) N.D. Mississippi"
+                }, 
                 "us;federal;ms.southern": {
                     "name": "S.D. Mississippi"
+                }, 
+                "us;federal;ms.southern-bankr": {
+                    "name": "(Bankr) S.D. Mississippi"
                 }, 
                 "us;federal;mt": {
                     "name": "D. Montana"
                 }, 
+                "us;federal;mt-bankr": {
+                    "name": "(Bankr) D. Montana"
+                }, 
                 "us;federal;nc.eastern": {
                     "name": "E.D. North Carolina"
+                }, 
+                "us;federal;nc.eastern-bankr": {
+                    "name": "(Bankr) E.D. North Carolina"
                 }, 
                 "us;federal;nc.middle": {
                     "name": "M.D. North Carolina"
                 }, 
+                "us;federal;nc.middle-bankr": {
+                    "name": "(Bankr) M.D. North Carolina"
+                }, 
                 "us;federal;nc.western": {
                     "name": "W.D. North Carolina"
+                }, 
+                "us;federal;nc.western-bankr": {
+                    "name": "(Bankr) W.D. North Carolina"
                 }, 
                 "us;federal;nd": {
                     "name": "D. North Dakota"
                 }, 
+                "us;federal;nd-bankr": {
+                    "name": "(Bankr) D. North Dakota"
+                }, 
                 "us;federal;ne": {
                     "name": "D. Nebraska"
+                }, 
+                "us;federal;ne-bankr": {
+                    "name": "(Bankr) D. Nebraska"
                 }, 
                 "us;federal;nh": {
                     "name": "D. New Hampshire"
                 }, 
+                "us;federal;nh-bankr": {
+                    "name": "(Bankr) D. New Hampshire"
+                }, 
                 "us;federal;nj": {
                     "name": "D. New Jersey"
+                }, 
+                "us;federal;nj-bankr": {
+                    "name": "(Bankr) D. New Jersey"
                 }, 
                 "us;federal;nm": {
                     "name": "D. New Mexico"
                 }, 
+                "us;federal;nm-bankr": {
+                    "name": "(Bankr) D. New Mexico"
+                }, 
                 "us;federal;nv": {
                     "name": "D. Nevada"
+                }, 
+                "us;federal;nv-bankr": {
+                    "name": "(Bankr) D. Nevada"
                 }, 
                 "us;federal;ny.eastern": {
                     "name": "E.D. New York"
                 }, 
+                "us;federal;ny.eastern-bankr": {
+                    "name": "(Bankr) E.D. New York"
+                }, 
                 "us;federal;ny.northern": {
                     "name": "N.D. New York"
+                }, 
+                "us;federal;ny.northern-bankr": {
+                    "name": "(Bankr) N.D. New York"
                 }, 
                 "us;federal;ny.southern": {
                     "name": "S.D. New York"
                 }, 
+                "us;federal;ny.southern-bankr": {
+                    "name": "(Bankr) S.D. New York"
+                }, 
                 "us;federal;ny.western": {
                     "name": "W.D. New York"
+                }, 
+                "us;federal;ny.western-bankr": {
+                    "name": "(Bankr) W.D. New York"
                 }, 
                 "us;federal;oh.northern": {
                     "name": "N.D. Ohio"
                 }, 
+                "us;federal;oh.northern-bankr": {
+                    "name": "(Bankr) N.D. Ohio"
+                }, 
                 "us;federal;oh.southern": {
                     "name": "S.D. Ohio"
+                }, 
+                "us;federal;oh.southern-bankr": {
+                    "name": "(Bankr) S.D. Ohio"
                 }, 
                 "us;federal;ok.eastern": {
                     "name": "E.D. Oklahoma"
                 }, 
+                "us;federal;ok.eastern-bankr": {
+                    "name": "(Bankr) E.D. Oklahoma"
+                }, 
                 "us;federal;ok.northern": {
                     "name": "N.D. Oklahoma"
+                }, 
+                "us;federal;ok.northern-bankr": {
+                    "name": "(Bankr) N.D. Oklahoma"
                 }, 
                 "us;federal;ok.western": {
                     "name": "W.D. Oklahoma"
                 }, 
+                "us;federal;ok.western-bankr": {
+                    "name": "(Bankr) W.D. Oklahoma"
+                }, 
                 "us;federal;or": {
                     "name": "D. Oregon"
+                }, 
+                "us;federal;or-bankr": {
+                    "name": "(Bankr) D. Oregon"
                 }, 
                 "us;federal;pa.eastern": {
                     "name": "E.D. Pennsylvania"
                 }, 
+                "us;federal;pa.eastern-bankr": {
+                    "name": "(Bankr) E.D. Pennsylvania"
+                }, 
                 "us;federal;pa.middle": {
                     "name": "M.D. Pennsylvania"
+                }, 
+                "us;federal;pa.middle-bankr": {
+                    "name": "(Bankr) M.D. Pennsylvania"
                 }, 
                 "us;federal;pa.western": {
                     "name": "W.D. Pennsylvania"
                 }, 
+                "us;federal;pa.western-bankr": {
+                    "name": "(Bankr) W.D. Pennsylvania"
+                }, 
                 "us;federal;pr": {
                     "name": "D. Puerto Rico"
+                }, 
+                "us;federal;pr-bankr": {
+                    "name": "(Bankr) D. Puerto Rico"
                 }, 
                 "us;federal;ri": {
                     "name": "D. Rhode Island"
                 }, 
+                "us;federal;ri-bankr": {
+                    "name": "(Bankr) D. Rhode Island"
+                }, 
                 "us;federal;sc": {
                     "name": "D. South Carolina"
+                }, 
+                "us;federal;sc-bankr": {
+                    "name": "(Bankr) D. South Carolina"
                 }, 
                 "us;federal;sd": {
                     "name": "D. South Dakota"
                 }, 
+                "us;federal;sd-bankr": {
+                    "name": "(Bankr) D. South Dakota"
+                }, 
                 "us;federal;tn.eastern": {
                     "name": "E.D. Tennessee"
+                }, 
+                "us;federal;tn.eastern-bankr": {
+                    "name": "(Bankr) E.D. Tennessee"
                 }, 
                 "us;federal;tn.middle": {
                     "name": "M.D. Tennessee"
                 }, 
+                "us;federal;tn.middle-bankr": {
+                    "name": "(Bankr) M.D. Tennessee"
+                }, 
                 "us;federal;tn.western": {
                     "name": "W.D. Tennessee"
+                }, 
+                "us;federal;tn.western-bankr": {
+                    "name": "(Bankr) W.D. Tennessee"
                 }, 
                 "us;federal;tx.eastern": {
                     "name": "E.D. Texas"
                 }, 
+                "us;federal;tx.eastern-bankr": {
+                    "name": "(Bankr) E.D. Texas"
+                }, 
                 "us;federal;tx.northern": {
                     "name": "N.D. Texas"
+                }, 
+                "us;federal;tx.northern-bankr": {
+                    "name": "(Bankr) N.D. Texas"
                 }, 
                 "us;federal;tx.southern": {
                     "name": "S.D. Texas"
                 }, 
+                "us;federal;tx.southern-bankr": {
+                    "name": "(Bankr) S.D. Texas"
+                }, 
                 "us;federal;tx.western": {
                     "name": "W.D. Texas"
+                }, 
+                "us;federal;tx.western-bankr": {
+                    "name": "(Bankr) W.D. Texas"
                 }, 
                 "us;federal;ut": {
                     "name": "D. Utah"
                 }, 
+                "us;federal;ut-bankr": {
+                    "name": "(Bankr) D. Utah"
+                }, 
                 "us;federal;va.eastern": {
                     "name": "E.D. Virginia"
+                }, 
+                "us;federal;va.eastern-bankr": {
+                    "name": "(Bankr) E.D. Virginia"
                 }, 
                 "us;federal;va.western": {
                     "name": "W.D. Virginia"
                 }, 
+                "us;federal;va.western-bankr": {
+                    "name": "(Bankr) W.D. Virginia"
+                }, 
                 "us;federal;vt": {
                     "name": "D. Vermont"
+                }, 
+                "us;federal;vt-bankr": {
+                    "name": "(Bankr) D. Vermont"
                 }, 
                 "us;federal;wa.eastern": {
                     "name": "E.D. Washington"
                 }, 
+                "us;federal;wa.eastern-bankr": {
+                    "name": "(Bankr) E.D. Washington"
+                }, 
                 "us;federal;wa.western": {
                     "name": "W.D. Washington"
+                }, 
+                "us;federal;wa.western-bankr": {
+                    "name": "(Bankr) W.D. Washington"
                 }, 
                 "us;federal;wi.eastern": {
                     "name": "E.D. Wisconsin"
                 }, 
+                "us;federal;wi.eastern-bankr": {
+                    "name": "(Bankr) E.D. Wisconsin"
+                }, 
                 "us;federal;wi.western": {
                     "name": "W.D. Wisconsin"
+                }, 
+                "us;federal;wi.western-bankr": {
+                    "name": "(Bankr) W.D. Wisconsin"
                 }, 
                 "us;federal;wv.northern": {
                     "name": "N.D. West Virginia"
                 }, 
+                "us;federal;wv.northern-bankr": {
+                    "name": "(Bankr) N.D. West Virginia"
+                }, 
                 "us;federal;wv.southern": {
                     "name": "S.D. West Virginia"
                 }, 
+                "us;federal;wv.southern-bankr": {
+                    "name": "(Bankr) S.D. West Virginia"
+                }, 
                 "us;federal;wy": {
                     "name": "D. Wyoming"
+                },
+                "us;federal;wy-bankr": {
+                    "name": "(Bankr) D. Wyoming"
                 }
             }, 
             "name": "federal"
@@ -1314,7 +1629,7 @@
                     "name": "Minnisota"
                 }, 
                 "us;mo": {
-                    "name": "Montana"
+                    "name": "Missouri"
                 }, 
                 "us;ms": {
                     "name": "Mississippi"
@@ -1401,6 +1716,9 @@
             "name": ""
         }
     }, 
+    "ussr": {
+        "name": "Union of Soviet Socialist Republics"
+    }, 
     "uy": {
         "name": "Uruguay"
     }, 
@@ -1442,6 +1760,9 @@
     }, 
     "yt": {
         "name": "Mayotte"
+    }, 
+    "yugoslavia": {
+        "name": "Yugoslavia"
     }, 
     "za": {
         "name": "South Africa"
