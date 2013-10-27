@@ -339,6 +339,63 @@
     }, 
     "fr": {
         "name": "France"
+        "subunit": {
+            "children": {
+                "fr;tribunal.conflits": {
+                    "name": "Tribunal des conflits",
+                    "nickname": "T.C."
+                },
+                "fr;ccass.pleniere": {
+                    "name": "Cour de cassation, Assemblée plénière",
+                    "nickname": "Cass. Ass. plén."
+                },
+                "fr;ccass.mixte": {
+                    "name": "Cour de cassation, Chambres mixtes",
+                    "nickname": "Cass. Ch. mixte"
+                },
+                "fr;ccass.civ1": {
+                    "name": "Cour de cassation, 1ère Chambre civile",
+                    "nickname": "Cass. 1e civ."
+                },
+                "fr;ccass.civ2": {
+                    "name": "Cour de cassation, 2eme Chambre civile",
+                    "nickname": "Cass. 2e civ."
+                },
+                "fr;ccass.civ3": {
+                    "name": "Cour de cassation, 3ème Chambre civile",
+                    "nickname": "Cass. 3e civ."
+                },
+                "fr;ccass.crim": {
+                    "name": "Cour de cassation, Chambre criminelle",
+                    "nickname": "Cass. crim."
+                },
+                "fr;ccass.com": {
+                    "name": "Cour de cassation, Chambre commerciale",
+                    "nickname": "Cass. com."
+                },
+                "fr;ccass.soc": {
+                    "name": "Cour de cassation, Chambre sociale",
+                    "nickname": "Cass. soc."
+                },
+                "fr;ce": {
+                    "name": "Conseil d'État",
+                    "nickname": "CE"
+                },
+                "fr;ccomptes": {
+                    "name": "Cour des comptes",
+                    "nickname": "C. comptes"
+                },
+                "fr;cdbf": {
+                    "name": "Cour de discipline budgétaire et financière",
+                    "nickname": "CDBF"
+                },
+                "fr;cjr": {
+                    "name": "Cour de Justice de la République",
+                    "nickname": "CRJ"
+                }
+            }, 
+            "name": ""
+        }
     }, 
     "ga": {
         "name": "Gabon"
