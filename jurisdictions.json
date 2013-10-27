@@ -121,44 +121,29 @@
         "nickname": "Canada",
         "federal": {
             "children": {
-                "ca;federal;ab": {
-                    "name": "Alberta"
+                "ca;federal;scc": {
+                    "name": "Supreme Court of Canada"
                 }, 
-                "ca;federal;bc": {
-                    "name": "British Columbia"
+                "ca;federal;fca": {
+                    "name": "Federal Court of Appeal"
+                },
+                "ca;federal;fc": {
+                    "name": "Federal Court"
                 }, 
-                "ca;federal;mb": {
-                    "name": "Manitoba"
-                }, 
-                "ca;federal;nb": {
-                    "name": "New Brunswick"
-                }, 
-                "ca;federal;nl": {
-                    "name": "Newfoundland"
-                }, 
-                "ca;federal;ns": {
-                    "name": "Nova Scotia"
-                }, 
-                "ca;federal;nt": {
-                    "name": "Northwest Territories"
-                }, 
-                "ca;federal;nu": {
-                    "name": "Nunavut"
-                }, 
-                "ca;federal;on": {
-                    "name": "Ontario"
-                }, 
-                "ca;federal;pe": {
-                    "name": "Prince Edward Island"
-                }, 
-                "ca;federal;qc": {
-                    "name": "Quebec"
-                }, 
-                "ca;federal;sk": {
-                    "name": "Saskatchewan"
-                }, 
-                "ca;federal;yt": {
-                    "name": "Yukon"
+                "ca;federal;tcc": {
+                    "name": "Tax Court of Canada"
+                },
+                "ca;federal;cmac": {
+                    "name": "Court Martial Appeal Court of Canada"
+                },
+                "ca;federal;exchequer-court-of-canada": {
+                    "name": "Exchequer Court of Canada"
+                },
+                "ca;federal;fcc.fctd": {
+                    "name": "Federal Court - Trial Division"
+                },
+                "ca;federal;fcc.fcad": {
+                    "name": "Federal Court - Appeal Division"
                 }
             }, 
             "name": "federal"
@@ -197,7 +182,19 @@
                 }, 
                 "ca;qc": {
                     "name": "Quebec"
-                }, 
+                },
+                "ca;qc;qcca": {
+                    "name": "Québec Court of Appeal"
+                },
+                "ca;qc;qccs": {
+                    "name": "Québec Superior Court"
+                },
+                "ca;qc;qccq": {
+                    "name": "Court of Québec"
+                },
+                "ca;qc;tdp": {
+                    "name": "Human Rights Tribunal"
+                },
                 "ca;sk": {
                     "name": "Saskatchewan"
                 }, 
