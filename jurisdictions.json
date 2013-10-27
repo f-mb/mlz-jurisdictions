@@ -319,8 +319,32 @@
     "et": {
         "name": "Ethiopia"
     }, 
-    "europa.eu": {
+    "eu": {
         "name": "European Union"
+         "subunit": {
+            "children": {
+                "eu;cjeu.ecj": {
+                    "name": "European Court of Justice",
+                    "nickname": "ECJ"
+                },
+                "eu;cjeu.gc": {
+                    "name": "General Court",
+                    "nickname": "GC"
+                },
+                "eu;cjeu.cst": {
+                    "name": "Civil Service Tribunal"
+                },
+                "eu;cjec.ecj": {
+                    "name": "European Court of Justice (EC)",
+                    "nickname": "ECJ"
+                },
+                "eu;cjec.cfi": {
+                    "name": "Court of First Instance (EC)",
+                    "nickname": "CFI"
+                }
+            }, 
+            "name": ""
+        }
     }, 
     "fi": {
         "name": "Finland"
